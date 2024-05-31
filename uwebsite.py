@@ -1,7 +1,7 @@
 import streamlit as st
 st.title("login")
-username=st.text_input("Enter your name ",value=0,"%s")
-a=st.number_input("Enter your Password: ",value=0,"%d")
+username=st.text_input("Enter your name ")
+a=st.number_input("Enter your Password: ",value=0,format="%d")
 sum1=0
 sum2=0
 sum3=0
